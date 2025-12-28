@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UKM & Organisasi FMIPA UII</title>
+  <meta name="description" content="Pusat informasi UKM dan organisasi FMIPA UII — jelajahi, kenali, dan daftar langsung." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Ambient blobs -->
+  <div class="ambient" aria-hidden="true">
+    <span class="blob blob-1"></span>
+    <span class="blob blob-2"></span>
+    <span class="blob blob-3"></span>
+    <span class="grid-dots"></span>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#home" aria-label="Beranda">
+        <span class="brand__mark" aria-hidden="true">FMIPA</span>
+        <span class="brand__text">
+          <strong>UKM</strong> & Organisasi
+          <small>FMIPA UII</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav__link">Home</a>
+        <a href="#benefits" class="nav__link">Manfaat</a>
+        <a href="#about" class="nav__link">Tentang</a>
+        <a href="#ukm" class="nav__link">Daftar UKM</a>
+        <a href="#testimonials" class="nav__link">Testimoni</a>
+        <a href="#register" class="nav__link nav__cta">Daftar</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Buka menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="home" class="hero section">
+    <div class="container hero__grid">
+      <div class="hero__content reveal">
+        <div class="pill">
+          <span class="pill__dot"></span>
+          Pusat Informasi • UKM & Organisasi FMIPA UII
+        </div>
+
+        <h1>
+          Temukan UKM/Organisasi yang cocok untuk
+          <span class="grad">minat & pengembangan dirimu</span>
+        </h1>
+
+        <p class="lead">
+          Jelajahi kegiatan, program kerja, dan komunitas di lingkungan FMIPA UII.
+          Kamu bisa daftar langsung lewat satu formulir di akhir halaman.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#ukm">
+            Jelajahi UKM
+            <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M13 5l7 7-7 7M4 12h15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a class="btn btn--ghost" href="#register">Daftar Sekarang</a>
+        </div>
+
+        <div class="hero__stats">
+          <div class="stat">
+            <div class="stat__num" data-counter="12">0</div>
+            <div class="stat__label">UKM/Organisasi</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num" data-counter="48">0</div>
+            <div class="stat__label">Program/Kegiatan</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num" data-counter="1200">0</div>
+            <div class="stat__label">Anggota Aktif</div>
+          </div>
+        </div>
+
+        <div class="trust">
+          <span class="trust__badge">Kegiatan</span>
+          <span class="trust__badge">Kompetisi</span>
+          <span class="trust__badge">Relasi</span>
+          <span class="trust__badge">Soft skill</span>
+        </div>
+      </div>
+
+      <div class="hero__visual reveal">
+        <div class="visualCard">
+          <div class="visualCard__top">
+            <div class="dot dot--g"></div>
+            <div class="dot dot--y"></div>
+            <div class="dot dot--r"></div>
+            <div class="visualCard__title">FMIPA Community Hub</div>
+          </div>
+
+          <div class="visualCard__body">
+            <div class="phone">
+              <div class="phone__screen">
+                <div class="phone__header">
+                  <div class="avatar" aria-hidden="true"></div>
+                  <div>
+                    <div class="miniTitle">Open Recruitment</div>
+                    <div class="miniSub">Pilih UKM • Isi form • Join</div>
+                  </div>
+                </div>
+
+                <div class="chipRow">
+                  <span class="chip">Riset</span>
+                  <span class="chip">Seni</span>
+                  <span class="chip">Olahraga</span>
+                  <span class="chip">Kepanitiaan</span>
+                </div>
+
+                <div class="miniCards">
+                  <div class="miniCard">
+                    <div class="miniIcon" aria-hidden="true"></div>
+                    <div>
+                      <div class="miniTitle">Info Kegiatan</div>
+                      <div class="miniSub">Update rutin tiap minggu</div>
+                    </div>
+                  </div>
+                  <div class="miniCard">
+                    <div class="miniIcon miniIcon--2" aria-hidden="true"></div>
+                    <div>
+                      <div class="miniTitle">Daftar Cepat</div>
+                      <div class="miniSub">Satu formulir untuk semua</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="chart">
+                  <div class="bar" style="height: 42%"></div>
+                  <div class="bar" style="height: 65%"></div>
+                  <div class="bar" style="height: 52%"></div>
+                  <div class="bar" style="height: 80%"></div>
+                  <div class="bar" style="height: 58%"></div>
+                </div>
+
+                <a class="phone__cta" href="#register">Daftar di Akhir Halaman</a>
+              </div>
+            </div>
+
+            <div class="floatingTag floatingTag--1">Gen Z Friendly</div>
+            <div class="floatingTag floatingTag--2">Terstruktur</div>
+            <div class="floatingTag floatingTag--3">Satu Form</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wave wave--top" aria-hidden="true">
+      <svg viewBox="0 0 1440 160" preserveAspectRatio="none">
+        <path d="M0,64 C180,124 360,124 540,64 C720,4 900,4 1080,64 C1260,124 1380,124 1440,96 L1440,160 L0,160 Z"></path>
+      </svg>
+    </div>
+  </main>
+
+  <!-- Benefits / Features -->
+  <section id="benefits" class="section">
+    <div class="container">
+      <div class="section__head reveal">
+        <h2>Manfaat Bergabung</h2>
+        <p>Kamu bisa dapat pengalaman nyata, relasi, dan ruang eksplorasi yang aman & seru.</p>
+      </div>
+
+      <div class="cards cards--4">
+        <article class="card reveal">
+          <div class="card__icon">🎯</div>
+          <h3>Pengembangan Diri</h3>
+          <p>Latih kepemimpinan, komunikasi, dan problem solving lewat program yang nyata.</p>
+          <a href="#register" class="card__link">Mulai daftar</a>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon">🤝</div>
+          <h3>Relasi & Komunitas</h3>
+          <p>Temukan teman satu frekuensi, kolaborasi lintas prodi, dan jaringan alumni.</p>
+          <a href="#ukm" class="card__link">Lihat komunitas</a>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon">🏆</div>
+          <h3>Prestasi & Portofolio</h3>
+          <p>Ikut lomba, event, riset, atau project yang bisa masuk CV & LinkedIn kamu.</p>
+          <a href="#ukm" class="card__link">Cari program</a>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon">🧭</div>
+          <h3>Arah Karier</h3>
+          <p>Eksplor minat lebih cepat: organisasi, riset, sosial, entrepreneurship, dan lain-lain.</p>
+          <a href="#about" class="card__link">Pelajari lebih</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section section--soft">
+    <div class="container about">
+      <div class="about__left reveal">
+        <h2>Tentang Halaman Ini</h2>
+        <p class="lead">
+          Ini adalah landing page untuk membantu mahasiswa FMIPA UII menemukan
+          UKM/organisasi yang sesuai. Semua informasi ditampilkan ringkas, dan pendaftaran
+          dibuat simpel: <strong>satu formulir untuk semua pilihan</strong>.
+        </p>
+
+        <div class="about__bullets">
+          <div class="bullet">
+            <div class="bullet__icon">✅</div>
+            <div>
+              <div class="bullet__title">Informasi ringkas & rapi</div>
+              <div class="bullet__text">Profil, kategori, kegiatan, dan kontak tiap UKM/organisasi.</div>
+            </div>
+          </div>
+
+          <div class="bullet">
+            <div class="bullet__icon">📝</div>
+            <div>
+              <div class="bullet__title">Daftar dalam 1 menit</div>
+              <div class="bullet__text">Isi data, pilih UKM, kirim. Bisa dikembangkan ke Google Sheets.</div>
+            </div>
+          </div>
+
+          <div class="bullet">
+            <div class="bullet__icon">📱</div>
+            <div>
+              <div class="bullet__title">Mobile-first</div>
+              <div class="bullet__text">Tampilan nyaman untuk anak muda: clean, modern, dan responsif.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__actions">
+          <a class="btn btn--primary" href="#ukm">Lihat Daftar UKM</a>
+          <a class="btn btn--ghost" href="#register">Langsung Daftar</a>
+        </div>
+      </div>
+
+      <div class="about__right reveal">
+        <div class="aboutCard">
+          <div class="aboutCard__head">
+            <div>
+              <div class="aboutCard__title">Alur Pendaftaran</div>
+              <div class="aboutCard__sub">Simple • Cepat • Transparan</div>
+            </div>
+            <div class="badge">Step-by-step</div>
+          </div>
+
+          <ol class="timeline">
+            <li>
+              <span class="timeline__dot"></span>
+              <div>
+                <strong>Pilih UKM/Organisasi</strong>
+                <p>Lihat list dan deskripsi singkatnya.</p>
+              </div>
+            </li>
+            <li>
+              <span class="timeline__dot"></span>
+              <div>
+                <strong>Isi Form</strong>
+                <p>Nama, NIM, prodi, dan alasan bergabung.</p>
+              </div>
+            </li>
+            <li>
+              <span class="timeline__dot"></span>
+              <div>
+                <strong>Konfirmasi</strong>
+                <p>Data tersimpan & kamu dapat instruksi langkah berikutnya.</p>
+              </div>
+            </li>
+          </ol>
+
+          <div class="aboutCard__footer">
+            <div class="note">
+              <strong>Tips:</strong> Edit daftar UKM/organisasi dari <code>script.js</code> (array <code>ukmData</code>).
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- UKM List -->
+  <section id="ukm" class="section">
+    <div class="container">
+      <div class="section__head reveal">
+        <h2>Daftar UKM & Organisasi</h2>
+        <p>Filter berdasarkan kategori. Klik kartu untuk lihat detail singkat.</p>
+      </div>
+
+      <div class="toolbar reveal">
+        <div class="search">
+          <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M21 21l-4.3-4.3M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <input id="searchUkm" type="search" placeholder="Cari UKM/Organisasi (misal: riset, olahraga...)" autocomplete="off" />
+        </div>
+
+        <div class="filters">
+          <button class="chipBtn is-active" data-filter="all">Semua</button>
+          <button class="chipBtn" data-filter="Keilmuan">Keilmuan</button>
+          <button class="chipBtn" data-filter="Seni">Seni</button>
+          <button class="chipBtn" data-filter="Olahraga">Olahraga</button>
+          <button class="chipBtn" data-filter="Sosial">Sosial</button>
+          <button class="chipBtn" data-filter="Kepanitiaan">Kepanitiaan</button>
+        </div>
+      </div>
+
+      <div class="ukmGrid" id="ukmGrid" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section section--soft">
+    <div class="container">
+      <div class="section__head reveal">
+        <h2>Kata Mereka</h2>
+        <p>Contoh testimoni (placeholder) — kamu bisa ganti jadi testimoni nyata.</p>
+      </div>
+
+      <div class="testimonials">
+        <aside class="testimonials__list reveal">
+          <button class="tItem is-active" data-t="0">
+            <div class="tAvatar" aria-hidden="true"></div>
+            <div>
+              <strong>Mahasiswa A</strong>
+              <small>Angkatan 2023</small>
+            </div>
+          </button>
+
+          <button class="tItem" data-t="1">
+            <div class="tAvatar tAvatar--2" aria-hidden="true"></div>
+            <div>
+              <strong>Mahasiswa B</strong>
+              <small>Angkatan 2022</small>
+            </div>
+          </button>
+
+          <button class="tItem" data-t="2">
+            <div class="tAvatar tAvatar--3" aria-hidden="true"></div>
+            <div>
+              <strong>Mahasiswa C</strong>
+              <small>Angkatan 2024</small>
+            </div>
+          </button>
+        </aside>
+
+        <article class="quoteCard reveal" id="quoteCard">
+          <div class="quoteMark">“</div>
+          <p class="quoteText" id="quoteText">
+            Gabung organisasi bikin aku lebih pede ngomong di depan orang, plus jadi punya circle belajar yang seru.
+          </p>
+          <div class="quoteMeta" id="quoteMeta">
+            <div class="quoteName">Mahasiswa A</div>
+            <div class="quoteRole">Angkatan 2023 • Komunitas Keilmuan</div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Register -->
+  <section id="register" class="section register">
+    <div class="wave wave--bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 180" preserveAspectRatio="none">
+        <path d="M0,120 C180,40 360,40 540,120 C720,200 900,200 1080,120 C1260,40 1380,40 1440,80 L1440,180 L0,180 Z"></path>
+      </svg>
+    </div>
+
+    <div class="container">
+      <div class="register__head reveal">
+        <h2>Daftar ke UKM/Organisasi</h2>
+        <p>Satu formulir untuk semua. Pilih UKM/Organisasi yang kamu minati di dropdown.</p>
+      </div>
+
+      <div class="register__grid">
+        <div class="register__info reveal">
+          <div class="infoCard">
+            <h3>Yang kamu dapat</h3>
+            <ul class="checklist">
+              <li><span>✅</span> Rekomendasi komunitas sesuai minat</li>
+              <li><span>✅</span> Update kegiatan & open recruitment</li>
+              <li><span>✅</span> Akses jaringan & kolaborasi</li>
+              <li><span>✅</span> Pengalaman untuk portofolio</li>
+            </ul>
+
+            <div class="miniNote">
+              Setelah submit, data akan tersimpan (demo) di browser. Bisa kamu upgrade ke Google Sheets / backend.
+            </div>
+
+            <div class="contactBox">
+              <div class="contactBox__title">Kontak</div>
+              <div class="contactBox__row">
+                <span class="muted">Email</span>
+                <strong>fmipa@uii.ac.id</strong>
+              </div>
+              <div class="contactBox__row">
+                <span class="muted">Instagram</span>
+                <strong>@fmipauii</strong>
+              </div>
+              <div class="contactBox__row">
+                <span class="muted">Lokasi</span>
+                <strong>Kampus UII</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="register__form reveal">
+          <form id="regForm" class="formCard" novalidate>
+            <div class="formRow">
+              <div class="field">
+                <label for="fullName">Nama Lengkap</label>
+                <input id="fullName" name="fullName" type="text" placeholder="Nama kamu" required />
+                <small class="error" data-err-for="fullName"></small>
+              </div>
+
+              <div class="field">
+                <label for="nim">NIM</label>
+                <input id="nim" name="nim" type="text" inputmode="numeric" placeholder="Contoh: 23xxxxxx" required />
+                <small class="error" data-err-for="nim"></small>
+              </div>
+            </div>
+
+            <div class="formRow">
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="nama@email.com" required />
+                <small class="error" data-err-for="email"></small>
+              </div>
+
+              <div class="field">
+                <label for="phone">No. HP</label>
+                <input id="phone" name="phone" type="tel" placeholder="08xxxxxxxxxx" />
+                <small class="hint">Opsional</small>
+              </div>
+            </div>
+
+            <div class="formRow">
+              <div class="field">
+                <label for="program">Prodi</label>
+                <select id="program" name="program" required>
+                  <option value="" selected disabled>Pilih prodi</option>
+                  <option>Statistika</option>
+                  <option>Kimia</option>
+                  <option>Farmasi</option>
+                  <option>Informatika</option>
+                  <option>Lainnya</option>
+                </select>
+                <small class="error" data-err-for="program"></small>
+              </div>
+
+              <div class="field">
+                <label for="ukmChoice">Pilih UKM/Organisasi</label>
+                <select id="ukmChoice" name="ukmChoice" required>
+                  <option value="" selected disabled>Memuat daftar...</option>
+                </select>
+                <small class="error" data-err-for="ukmChoice"></small>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="reason">Alasan / Minat</label>
+              <textarea id="reason" name="reason" rows="4" placeholder="Ceritakan minat kamu (singkat saja)..." required></textarea>
+              <small class="error" data-err-for="reason"></small>
+            </div>
+
+            <label class="agree">
+              <input id="agree" type="checkbox" required />
+              <span>Saya setuju data saya digunakan untuk keperluan pendaftaran UKM/Organisasi.</span>
+            </label>
+            <small class="error" data-err-for="agree"></small>
+
+            <div class="formActions">
+              <button type="submit" class="btn btn--primary btn--full">
+                Kirim Pendaftaran
+              </button>
+              <button type="button" class="btn btn--ghost btn--full" id="btnFillDemo">
+                Isi Contoh (Demo)
+              </button>
+            </div>
+
+            <div class="formToast" id="formToast" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footer__grid">
+          <div class="footer__brand">
+            <div class="brand brand--footer">
+              <span class="brand__mark" aria-hidden="true">FMIPA</span>
+              <span class="brand__text">
+                <strong>UKM</strong> & Organisasi
+                <small>FMIPA UII</small>
+              </span>
+            </div>
+            <p class="muted">
+              Landing page informasi & pendaftaran UKM/Organisasi. Silakan sesuaikan data & tautan resmi.
+            </p>
+          </div>
+
+          <div class="footer__cols">
+            <div class="fcol">
+              <div class="fcol__title">Menu</div>
+              <a href="#benefits">Manfaat</a>
+              <a href="#about">Tentang</a>
+              <a href="#ukm">Daftar UKM</a>
+              <a href="#register">Pendaftaran</a>
+            </div>
+
+            <div class="fcol">
+              <div class="fcol__title">Info</div>
+              <a href="#home">Beranda</a>
+              <a href="#testimonials">Testimoni</a>
+              <a href="#register">Kontak</a>
+            </div>
+
+            <div class="fcol">
+              <div class="fcol__title">Catatan</div>
+              <span class="muted">HTML • CSS • JS</span>
+              <span class="muted">LocalStorage (demo)</span>
+              <span class="muted">Siap di-upgrade</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <span>© <span id="year"></span> FMIPA UII • Dibuat untuk landing page UKM/Organisasi</span>
+          <a href="#home" class="toTop">Kembali ke atas ↑</a>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
